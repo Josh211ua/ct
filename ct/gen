@@ -60,7 +60,7 @@ gen() {
 
     Tarray=""
 
-    if [ ! `tests $@` ]; then
+    if [ ! "`tests $@`" ]; then
         `echo >&2 no tests found; exit 1`
     fi
 
