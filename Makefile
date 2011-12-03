@@ -1,4 +1,4 @@
-CFLAGS ?= -Wall -Wextra
+CFLAGS ?= -Werror -Wall
 
 libs = msg.c
 objs = $(libs:.c=.o)
